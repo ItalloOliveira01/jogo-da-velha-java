@@ -2,16 +2,12 @@
 
 Este projeto apresenta uma implementação simples e funcional do **Jogo da Velha (Tic-Tac-Toe)** em **Java**, projetada para ser executada diretamente no **console (terminal)**.
 
----
-
 ## 🧩 Descrição Geral
 
 O programa reproduz a lógica clássica do Jogo da Velha, em que dois jogadores — **'X'** e **'O'** — se alternam para marcar posições em um **tabuleiro 3x3**.
 
 O objetivo é formar uma sequência de **três símbolos iguais** na horizontal, vertical ou diagonal.
 Caso todas as posições sejam preenchidas sem que nenhum jogador alcance esse objetivo, o jogo termina em **empate**.
-
----
 
 ## ⚙️ Funcionalidades
 
@@ -22,8 +18,6 @@ Caso todas as posições sejam preenchidas sem que nenhum jogador alcance esse o
 * **Verificação de Vitória:** Após cada jogada, o programa verifica se o jogador atual venceu (linhas, colunas ou diagonais).
 * **Verificação de Empate:** Detecta automaticamente quando o tabuleiro está cheio e não há vencedor.
 * **Exibição do Tabuleiro:** Mostra o estado atualizado do jogo após cada rodada.
-
----
 
 ## ▶️ Como Executar
 
@@ -47,9 +41,7 @@ Caso todas as posições sejam preenchidas sem que nenhum jogador alcance esse o
 
    ```bash
    java JogoDaVelha
-   ```
-
----
+   ``
 
 ## 🎯 Como Jogar
 
@@ -59,7 +51,6 @@ Caso todas as posições sejam preenchidas sem que nenhum jogador alcance esse o
 4. Os jogadores alternam turnos até que um vença ou ocorra empate.
 5. O resultado final (vitória ou empate) é exibido no console.
 
----
 
 ## 💻 Estrutura do Código
 
@@ -84,7 +75,6 @@ Retorna `true` em caso de vitória e `false` caso contrário.
 Confere se todas as posições do tabuleiro estão preenchidas sem vencedor.
 Retorna `true` em caso de empate, e `false` se ainda houver jogadas disponíveis.
 
----
 
 ## 🏁 Conclusão
 
@@ -96,4 +86,11 @@ Este projeto é um excelente exercício introdutório para quem está aprendendo
 * Interação com o usuário pelo console
 
 Além de divertido, é uma ótima forma de praticar **lógica de programação** e **controle de fluxo**.
+
+🧠 Autor
+Ítallo Gabriel de Oliveira Correia
+
+💼 Estudante de Análise e Desenvolvimento de Sistemas
+
+📍 Focado em Java, lógica de programação e desenvolvimento de software limpo.
 
